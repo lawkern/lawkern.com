@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>lawkern.com</title>
+    <link>https://lawkern.com</link>
+    <description>Software-related write-ups</description>
+    <language>en-us</language>
+
+    <item>
+      <title>Introductions</title>
+      <link>https://lawkern.com/introductions.html</link>
+      <description>
+        I make software. There are a lot of topics in that space that I think
+        are interesting, and even more that I know too little about. I bounce
+        between them all the time, but I've done a less than stellar job of
+        documenting these adventures. So here we are!
+      </description>
+    </item>
+  </channel>
+</rss>
