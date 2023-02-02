@@ -7,8 +7,21 @@
     <language>en-us</language>
 
     <item>
+      <title>Hello N64</title>
+      <link>https://lawkern.com/hello-n64.html</link>
+      <guid>https://lawkern.com/hello-n64.html</guid>
+      <description>
+        Looking back, I still have a lot of fondness for those awkward early
+        years of 3D games. Since that time I've developed some idea of how a
+        computer works at all. So why not try making one of these games? How
+        does one produce a program and run it on the hardware of a Nintendo 64?
+      </description>
+    </item>
+
+    <item>
       <title>Introductions</title>
       <link>https://lawkern.com/introductions.html</link>
+      <guid>https://lawkern.com/introductions.html</guid>
       <description>
         I make software. There are a lot of topics in that space that I think
         are interesting, and even more that I know too little about. I bounce
