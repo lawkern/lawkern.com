@@ -23,7 +23,7 @@ pre
 {
   line-height: 1.0;
   border: 1px solid;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   width: max-content;
   min-width: 98%;
   padding: 0.5rem;
@@ -32,12 +32,12 @@ pre
 kbd, code, .address
 {
   font-family: Menlo, Consolas, monospace;
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
 kbd, p code
 {
-  font-size: 0.8rem;
+  font-size: 0.8em;
   border: 1px solid;
   border-radius: 0.2rem;
   padding: 0 0.2rem;
@@ -55,8 +55,15 @@ kbd, p code
   width: 12ch;
 }
 
+footer
+{
+  font-size: smaller;
+}
+
 @media (max-width: 600px)
 {
+  html, body {font-size: 16px;}
+
   pre
   {
     overflow-x: scroll;
@@ -92,26 +99,24 @@ kbd, p code
 
 /* Colors */
 
-html
+@media (prefers-color-scheme: light)
 {
-  background: black;
-  /* background: #192430; */
-  color: #89bcf5;
+  kbd, p code, pre, hr
+  {
+    border-color: lightgray;
+    background: whitesmoke;
+  }
 }
 
-header a {color: #89bcf5 !important;}
-header time, footer {color: #4d6d8f;}
-
-h1, h2, h3 {color: #afcae9;}
-
-a {color: #6ee2ff;}
-a:visited {color: #478fa4;}
-a:hover {color: #3e5974;}
-
-kbd, p code, pre
+@media (prefers-color-scheme: dark)
 {
-  border-color: #4d6d8f;
-  background: #233343;
-}
+  html {background: #1a1d21; color: #bbd4f0;}
+  a {color: #6ab4de;}
+  a:visited {color: #958ad4;}
 
-hr {border-color: #233343;}
+  kbd, p code, pre, hr
+  {
+    border-color: #677a8f;
+    background: #323b47;
+  }
+}
