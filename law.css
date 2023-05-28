@@ -4,8 +4,8 @@ html, body
   font-size: 18px;
 }
 
-p {margin-bottom: 1.5rem;}
-p, ul, ol {line-height: 1.5;}
+p {margin-bottom: 1.35em;}
+p, ul, ol {line-height: 1.35;}
 
 article
 {
@@ -14,10 +14,12 @@ article
   margin: auto;
 }
 
-h1 {font-size: 1.5rem;}
-h2 {font-size: 1.2rem;}
+h1 {font-size: 1.8rem;}
+h2 {font-size: 1.4rem;}
 h3 {font-size: 1.0rem;}
 h1, h2, h3 {margin-bottom: 0.25rem;}
+
+address {font-size: smaller;}
 
 pre
 {
